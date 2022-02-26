@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index2.css"/>
+    <script>
+
+        function calculate() {
+            var num1 = Number(document.getElementById("num1").value);
+            var num2 = Number(document.getElementById("num2").value);
+            var operation = document.getElementById("operation").value;
+            var result;
+            switch (operation) {
+                case "+":
+                    result = num1 + num2;
+                    break;
+                case "-":
+                    result = num1 - num2;
+                    break;
+                case "x":
+                    result = num1 * num2;
+                    break;
+                case "/":
+                    result = num1 / num2;
+                    break;
+            }
+            document.getElementById("result").value = result;
+        }
+    </script>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+        <th colspan="2">简易计算器</th>
+        </tr>
+
+        <tr>
+            <td>第一个数：</td>
+            <td><input type="text" id="num1"/></td>
+        </tr>
+        <tr>
+            <td>第二个数：</td>
+            <td><input type="text" id="num2"/></td>
+        </tr>
+        <tr>
+            <td>计算：</td>
+            <td><select id="operation">
+                <option selected>+</option>
+                <option>-</option>
+                <option>x</option>
+                <option>/</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="result"/>
+            </td>
+            <td><input type="button" value="计算" onclick="calculate()"/></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

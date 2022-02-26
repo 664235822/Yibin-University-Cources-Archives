@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let timeHandler;
+
+        function AddTimeButton() {
+            window.clearInterval(timeHandler)
+            timeHandler = window.setInterval(AddTime, 1000)
+        }
+
+        function MinusTimeButton() {
+            window.clearInterval(timeHandler)
+            timeHandler = window.setInterval(MinusTime, 1000)
+        }
+
+        function AddTime() {
+            document.getElementById("time").value = Number(document.getElementById("time").value) + 1
+        }
+
+        function MinusTime() {
+            document.getElementById("time").value = Number(document.getElementById("time").value) - 1
+            if (document.getElementById("time").value === "0") {
+                alert("计时器响！")
+
+                window.clearInterval(timeHandler)
+            }
+        }
+
+        function PauseButton() {
+            window.clearInterval(timeHandler)
+        }
+    </script>
+</head>
+<body>
+<form method="get" action="#">
+    <input type="text" id="time" value="0"/>
+    <input type="button" value="开始计时" onclick="AddTimeButton()"/>
+    <input type="button" value="开始倒数" onclick="MinusTimeButton()"/>
+    <input type="button" value="暂停" onclick="PauseButton()"/>
+</form>
+</body>
+</html>

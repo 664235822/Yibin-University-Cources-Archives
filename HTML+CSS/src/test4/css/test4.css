@@ -1,0 +1,23 @@
+*{
+    color: white;
+    margin: 0px;
+}
+div{
+    width: 100%;
+    height: 60px;
+    background: orange;
+    text-align: center;
+}
+a{
+    width: 120px;
+    height: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    overflow: visible;
+}
+a:hover{
+    border: 1px solid lightgray;
+    background: darkorange;
+    padding: 19px;
+}

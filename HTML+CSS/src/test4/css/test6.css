@@ -1,0 +1,23 @@
+form{
+    border: 1px dashed blue;
+    width: 600px;
+    padding-left: 20px;
+}
+#name{
+    border:1px solid blue;
+}
+#care{
+    color: blue;
+    border:1px solid blue;
+}
+textarea{
+    border: 1px double blue;
+    width: 300px;
+    height: 150px;
+}
+input[type=submit]{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background: lightblue;
+}

@@ -1,0 +1,43 @@
+*{
+    font-family: "microsoft yahei";
+    text-decoration: none;
+    list-style: none;
+    transition: all .5s;
+}
+div{
+    width: 785px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 20px;
+    display: inline-block;
+    overflow: hidden;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+    margin: 0 10px;
+}
+a{
+    position: relative;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+ul>li>a>span {
+    position: absolute;
+    width: 25px;
+    height: 8px;
+    bottom: -18px;
+    left: 50%;
+    margin-left: -12px;
+    background: url(../img/index.png) -37px 0;
+}
+ul>li>a:hover {
+    color: darkorange;
+}
+ul>li>a:hover>span {
+    transform: translateY(-8px);
+}

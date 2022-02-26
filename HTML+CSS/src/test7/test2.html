@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        #txt{
+            color: blue;
+        }
+    </style>
+    <script>
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+            setInterval(function () {
+                startTime()
+            }, 1000)
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i
+        }
+    </script>
+</head>
+<body onload="startTime()">
+<h1>当前时间</h1>
+<h3 id="txt"></h3>
+</body>
+</html>

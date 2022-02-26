@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4824ee3a-ef25-49dd-81e4-825b60459c7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignMode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignMode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AccessDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/AccessDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AccessFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/AccessFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/AccessUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/AccessUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/IDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/IDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/IFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/IFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/SqlServerDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/SqlServerDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/SqlServerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/SqlServerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/SqlServerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/SqlServerUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactory/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactory/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/AdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/DutchAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/DutchAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/BmpImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/BmpImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/BridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/BridgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/GifImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/GifImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Implementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/Implementor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/JpegImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/JpegImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/LinuxImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/LinuxImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/WindowsImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bridge/WindowsImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/HawaiianPizzaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/HawaiianPizzaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/PizzaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/PizzaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/SpicyPizzaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/SpicyPizzaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Waiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/CFO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/CFO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/ChainOfResponsibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/ChainOfResponsibilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/FinanceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/FinanceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/Proposer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/Proposer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibility/Reimbursement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibility/Reimbursement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/LightOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/CompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/CompositeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/MenuComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/MenuComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composite/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/Whip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facade/Education.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Entertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facade/Entertainment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/FacadeReception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facade/FacadeReception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/FacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facade/FacadeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facade/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/AccessFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/AccessFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/AccessUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/AccessUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/IFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/IFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/SqlServerFactiry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/SqlServerFactiry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/SqlServerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/SqlServerUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/ConcreteFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/ConcreteFlyweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/Flyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/Flyweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/FlyweightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/FlyweightFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/FlyweightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/FlyweightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flyweight/UnsharedConcreteFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/UnsharedConcreteFlyweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Div.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Div.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/InterpreterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Muti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Muti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iterator/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/Aggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iterator/ConcreteAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/ConcreteAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iterator/ContreteIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/ContreteIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iterator/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/Colleague.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/Colleague.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/Landlord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/Landlord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/Mediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/MediatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/MediatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/RealEstateAgents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/RealEstateAgents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/RealEstateDevelopers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/RealEstateDevelopers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/Tenants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mediator/Tenants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menmento/Caretaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menmento/Caretaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menmento/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menmento/Memento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menmento/MementoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menmento/MementoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menmento/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menmento/Originator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/CurrentConditionDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/CurrentConditionDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/EnvironmentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/EnvironmentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/ObserverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/ICloneable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/ICloneable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/PrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/PrototypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/Resume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/WorkExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/WorkExperience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/Parcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/Parcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/SingletonDouleLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/SingletonDouleLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/SingletonStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/SingletonStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/HasQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/HasQuarterState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/NoQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/NoQuarterState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/SoldOutState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/SoldOutState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/SoldState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/SoldState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/StateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/TissueMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/TissueMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CashContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/CashContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CashDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/CashDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CashNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/CashNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CashReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/CashReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CashSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/CashSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/StrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplateMethod/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateMethod/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplateMethod/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateMethod/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplateMethod/TemplateMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateMethod/TemplateMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemplateMethod/TimeAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemplateMethod/TimeAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/AppleHole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/AppleHole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/Farmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Hole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/Hole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/OrangeHole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/OrangeHole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Orchard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/Orchard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/TreeFarmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/TreeFarmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visitor/VisitorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/Menmento</dir>
+      <dir>$PROJECT_DIR$/src/Strategy</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Interpreter/Sub.java" />
+        <option value="$PROJECT_DIR$/src/Interpreter/Muti.java" />
+        <option value="$PROJECT_DIR$/src/Interpreter/Div.java" />
+        <option value="$PROJECT_DIR$/src/Interpreter/InterpreterTest.java" />
+        <option value="$PROJECT_DIR$/src/Iterator/ContreteIteratorA.java" />
+        <option value="$PROJECT_DIR$/src/Iterator/ConcreteAggregate.java" />
+        <option value="$PROJECT_DIR$/src/Iterator/Aggregate.java" />
+        <option value="$PROJECT_DIR$/src/Iterator/ContreteIterator.java" />
+        <option value="$PROJECT_DIR$/src/Iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/Iterator/IteratorTest.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/Colleague.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/Tenants.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/RealEstateDevelopers.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/Landlord.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/RealEstateAgents.java" />
+        <option value="$PROJECT_DIR$/src/Mediator/MediatorTest.java" />
+        <option value="$PROJECT_DIR$/src/Menmento/MenmentoTest.java" />
+        <option value="$PROJECT_DIR$/src/Menmento/Caretaker.java" />
+        <option value="$PROJECT_DIR$/src/Menmento/Memento.java" />
+        <option value="$PROJECT_DIR$/src/Menmento/MementoTest.java" />
+        <option value="$PROJECT_DIR$/src/Menmento/Originator.java" />
+        <option value="$PROJECT_DIR$/src/Observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/Observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/Observer/CurrentConditionDisplay.java" />
+        <option value="$PROJECT_DIR$/src/Observer/EnvironmentData.java" />
+        <option value="$PROJECT_DIR$/src/Observer/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/src/State/State.java" />
+        <option value="$PROJECT_DIR$/src/State/NoQuarterState.java" />
+        <option value="$PROJECT_DIR$/src/State/HasQuarterState.java" />
+        <option value="$PROJECT_DIR$/src/State/TissueMachine.java" />
+        <option value="$PROJECT_DIR$/src/State/SoldOutState.java" />
+        <option value="$PROJECT_DIR$/src/State/SoldState.java" />
+        <option value="$PROJECT_DIR$/src/State/StateTest.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/CashSuper.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/CashNormal.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/CashDiscount.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/CashReturn.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/CashContext.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/StrategyTest.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/CurrentAccount.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/TimeAccount.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/Account.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethod/TemplateMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/Farmer.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/Hole.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/AppleHole.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/TreeFarmer.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/OrangeHole.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/Orchard.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/VisitorTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="286" />
+    <option name="y" value="47" />
+    <option name="width" value="1400" />
+    <option name="height" value="937" />
+  </component>
+  <component name="ProjectId" id="21Zijv3Lvp1ribFbvnMEL4dkyOb" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Flyweight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Mediator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555669628473" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Visitor.VisitorTest" />
+      <module name="DesignMode" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4824ee3a-ef25-49dd-81e4-825b60459c7c" name="Default Changelist" comment="" />
+      <created>1555129109788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555129109788</updated>
+      <workItem from="1560861484945" duration="1750000" />
+      <workItem from="1562233444262" duration="1672000" />
+      <workItem from="1562245192488" duration="963000" />
+      <workItem from="1562409538484" duration="2553000" />
+      <workItem from="1562413213914" duration="627000" />
+      <workItem from="1562565198637" duration="1721000" />
+      <workItem from="1562675465815" duration="2908000" />
+      <workItem from="1562759408479" duration="3359000" />
+      <workItem from="1562836725961" duration="2067000" />
+      <workItem from="1562840564809" duration="1949000" />
+      <workItem from="1562921101422" duration="1197000" />
+      <workItem from="1562922339328" duration="6000" />
+      <workItem from="1562924405517" duration="1896000" />
+      <workItem from="1563109471124" duration="1091000" />
+      <workItem from="1563110764494" duration="43000" />
+      <workItem from="1563186047306" duration="1973000" />
+      <workItem from="1563189579479" duration="1024000" />
+      <workItem from="1638155152280" duration="4000" />
+      <workItem from="1638182467466" duration="158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26799000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="286" y="47" width="1400" height="937" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1730486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37254903" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46597463" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32871288" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Mediator/RealEstateDevelopers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mediator/RealEstateAgents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5910">
+          <caret line="432" column="8" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menmento/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menmento/Caretaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menmento/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menmento/MementoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/TissueMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/SoldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/StateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/CashSuper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/CashNormal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/CashDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/CashReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/CashContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/SoldOutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/HasQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/NoQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/StrategyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethod/CurrentAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor.java" />
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethod/TemplateMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Farmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/OrangeHole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Orchard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/TreeFarmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Hole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/AppleHole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethod/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethod/TimeAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/VisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prototype/ICloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Prototype/PrototypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Composite/CompositeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/CondimentDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/DarkRoast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Facade/FacadeReception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Facade/FacadeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flyweight/Flyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flyweight/FlyweightFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flyweight/FlyweightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mediator/MediatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/ObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/EnvironmentData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/CurrentConditionDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

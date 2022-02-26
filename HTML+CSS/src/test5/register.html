@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+<div id="signup" class="rl-modal  rl-model-signup in" aria-hidden="false">
+    <div class="rl-modal-header">
+        <button type="button" class="rl-close" data-dismiss="modal" aria-hidden="true"></button>
+        <h1 class="black-title">快速注册</h1></div>
+    <div class="rl-modal-body js-modal-body js-registerWrap">
+        <div class="captcha-border-box js-singnup-captcha">
+            <div class="js-singnup-captcha-box captcha-verify-box"></div>
+        </div>
+        <form id="signup-form pr">
+            <div class="rlf-group  pr">
+                <div class="rlf-areacode js-code-btn">+<span>86</span><i class="imv2-arrow1_d"></i></div>
+                <input type="text" maxlength="37" value="" name="email" data-callback="checkusername"
+                       data-validate="require-mobile-phone" autocomplete="off"
+                       class="ipt ipt-phone js-zhuge-signup-phone" placeholder="请输入注册手机号">
+                <p class="rlf-tip-wrap errorHint color-red" data-error-hint="请输入正确的手机号"></p></div>
+            <p class="subtitle" style="display: none">短信验证码已发送至 <span class="js-phoneNumber"></span></p>
+            <div class="rlf-group pr"><input type="text" id="js-phoneVerity" data-validate="require-string"
+                                             data-minlength="4" class="ipt ipt-pwd js-zhuge-signup-message"
+                                             placeholder="请输入短信验证码" maxlength="4" autocomplete="off">
+                <p class="reSend pa active js-signup-send-box"><span class="js-signup-send">获取验证码</span></p>
+                <p class="rlf-tip-wrap errorHint color-red" data-error-hint="请输入正确验证码"></p></div>
+            <div class="rlf-group proclaim-loc pr hide"><a href="javascript:void(0)" hidefocus="true"
+                                                           class="proclaim-btn js-proclaim imv2-visibility_off is-pwd"
+                                                           tabindex="-1"></a> <input type="password" id="js-password"
+                                                                                     name="password"
+                                                                                     data-validate="require-newpassword"
+                                                                                     class="ipt ipt-pwd js-pass-pwd js-zhuge-signup-password"
+                                                                                     placeholder="8-20位,字母/数字/字符至少包含两种"
+                                                                                     maxlength="20" autocomplete="off">
+                <p class="rlf-tip-wrap errorHint color-red"></p></div>
+            <div class="rlf-group rlf-appendix form-control  clearfix" style="margin-bottom:0"><label
+                    for="signup-protocol" class="rlf-autoin l" hidefocus="true"><input type="checkbox" class="auto-cbx"
+                                                                                       id="signup-protocol">同意<a
+                    class="ipt-agreement" target="_blank" href="https://www.imooc.com/help/detail/89">《慕课网注册协议》</a>&amp;<a
+                    href="https://moco.imooc.com/privacy.html" class="ipt-agreement" target="_blank">《隐私政策》</a></label>
+                <p class="rlf-tip-wrap errorHint color-red rlf-tip-globle" id="signup-globle-error"
+                   data-error-hint="请同意慕课网注册协议"></p></div>
+            <div class="rlf-group clearfix"><a href="javascript:void(0)" id="signup-btn" hidefocus="true"
+                                               class="moco-btn moco-btn-red moco-btn-lg btn-full btn r"> 立即注册 </a></div>
+        </form>
+    </div>
+    <div class="rl-model-footer">
+        <div class="pop-login-signup-box clearfix"><span data-fromto="signup:signin" class="xa-showSignin">返回账号登录</span>
+        </div>
+        <div class="pop-login-sns clearfix"><a href="javascript:void(0)" hidefocus="true"
+                                               data-login-sns="/passport/user/tplogin?tp=weixin" class="pop-sns-weixin"
+                                               data-source="立即注册"><i class="imv2-weixin11"></i></a> <a
+                href="javascript:void(0)" hidefocus="true" data-login-sns="/passport/user/tplogin?tp=qq"
+                class="pop-sns-qq" data-source="立即注册"><i class="imv2-qq11"></i></a> <a href="javascript:void(0)"
+                                                                                       hidefocus="true"
+                                                                                       data-login-sns="/passport/user/tplogin?tp=weibo"
+                                                                                       class="pop-sns-weibo"
+                                                                                       data-source="立即注册"><i
+                class="imv2-weibo11"></i></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.setInterval(changeImg, 2000)
+        let num = 1;
+
+        function changeImg() {
+            document.getElementById("main").style.background = "url(img/" + num + ".jpg)"
+            num++
+            if (num === 6) {
+                num = 1
+            }
+        }
+    </script>
+</head>
+<body id="main">
+
+</body>
+</html>

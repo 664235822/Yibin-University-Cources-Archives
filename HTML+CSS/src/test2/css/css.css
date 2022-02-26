@@ -1,0 +1,9 @@
+#search{
+    width:250px;
+    height: 40px;
+    border: gray solid 1px;
+    background-image: url("../img/4658124.jpg");
+    background-size: 35px 35px;
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+}

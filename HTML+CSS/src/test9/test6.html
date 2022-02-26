@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<p id="p"></p>
+<script>
+    let p = document.getElementById("p")
+
+    onkeydown = function (ev) {
+        p.innerHTML += "onkeydown" + "<br>";
+    }
+    onkeypress = function (ev) {
+        p.innerHTML += ev.keyCode + "<br>";
+        p.innerHTML += ev.key + "<br>";
+        p.innerHTML += "onkeypress" + "<br>";
+    }
+    onkeyup = function (ev) {
+        p.innerHTML += "onkeyup" + "<br>";
+    }
+</script>
+</body>
+</html>

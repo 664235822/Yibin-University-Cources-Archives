@@ -1,0 +1,13 @@
+th{
+    color: white;
+    background: darkgreen;
+}
+table tr:nth-child(odd){
+    background: aquamarine;
+}
+table tr:nth-child(even){
+    background: yellow;
+}
+table{
+    width: 1000px;
+}

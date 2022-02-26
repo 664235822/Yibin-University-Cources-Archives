@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function SelectColor() {
+            const selectObj = document.getElementById("selectColor");
+            const textBox = document.getElementById("textBox");
+            const selectNum = selectObj.options[selectObj.selectedIndex].value;
+            switch (selectNum) {
+                case "0":
+                    textBox.style.color = "black";
+                    textBox.style.borderColor = "black";
+                    break;
+                case "1":
+                    textBox.style.color = "red";
+                    textBox.style.borderColor = "red";
+                    break;
+                case "2":
+                    textBox.style.color = "green";
+                    textBox.style.borderColor = "green";
+                    break;
+                case "3":
+                    textBox.style.color = "yellow";
+                    textBox.style.borderColor = "yellow";
+                    break;
+                case "4":
+                    textBox.style.color = "blue";
+                    textBox.style.borderColor = "blue";
+                    break;
+                case "5":
+                    textBox.style.color = "orange";
+                    textBox.style.borderColor = "orange";
+                    break;
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="#" method="get">
+    <input id="textBox" type="text" value="默认字符"/>
+    <select id="selectColor" onchange="SelectColor()">
+        <option value="0" selected>黑色</option>
+        <option value="1">红色</option>
+        <option value="2">绿色</option>
+        <option value="3">黄色</option>
+        <option value="4">蓝色</option>
+        <option value="5">橙色</option>
+    </select>
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+    transition: all 0.3s;
+}
+
+input, select {
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    border: gray solid 1px;
+    box-shadow: gray 1px 1px;
+}
+
+table {
+    margin: 20px auto;
+    border: gray solid 1px;
+    background: beige;
+    box-shadow: gray 0px 0px 10px;
+}
+
+table:hover{
+    box-shadow: gray 0px 0px 20px;
+}

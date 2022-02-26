@@ -1,0 +1,24 @@
+div{
+    margin: 0px;;
+    padding: 0px;
+    border: 1px solid grey;
+}
+h3{
+    margin: 0px;
+    padding: 8px;
+    background: red;
+    text-align: center;
+    color: white;
+}
+span{
+    float: right;
+}
+ol{
+    padding-left: 10px;
+}
+li{
+    background: url("https://img2.baidu.com/it/u=1995195967,2890312010&fm=26&fmt=auto") no-repeat 5px;
+    background-size: 12px;
+    list-style: none;
+    padding: 4px 24px;
+}

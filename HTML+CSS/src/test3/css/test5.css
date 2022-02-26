@@ -1,0 +1,12 @@
+#a:hover~textarea{
+    border: 1px solid blue;
+    color: blue;
+
+}
+#b:hover~textarea{
+    background: url("https://img0.baidu.com/it/u=3063126680,2250826046&fm=26&fmt=auto");
+}
+textarea{
+    width: 600px;
+    height: 400px;
+}

@@ -1,0 +1,19 @@
+h2{
+    color: white;
+    background: linear-gradient(red, pink);
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+#box{
+    max-width: 1400px;
+    margin: auto;
+}
+.advertising{
+    float: left;
+    padding: 10px;
+}
+p{
+    clear: both;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+
+#nav {
+    width: 300px;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav li {
+    border-bottom: 1px solid #FFF5EE;
+}
+
+#nav li a {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    text-decoration: none;
+    border-left: 12px solid #711515;
+    border-right: 1px solid #711515;
+}
+
+#nav li a:link,
+#nav li a:visited {
+    background-color: #c11136;
+    color: #fff;
+}
+
+#nav li a:hover {
+    background-color: #990020;
+    color: #ff0;
+}

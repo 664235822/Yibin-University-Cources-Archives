@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+#common{
+    background: lightgray;
+}
+#common a{
+    color: red;
+    text-decoration: underline;
+}
+#common a:hover{
+    color: blue;
+    text-decoration: overline;
+}
+#bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    display: block;
+}
+#bottom a{
+    color: blue;
+    text-decoration: none;
+}
+

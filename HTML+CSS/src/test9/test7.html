@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="get" action="#" id="form">
+    请输入姓名：<input type="text" id="name"/><br>
+    接受商城协议：<input type="checkbox" id="allow"/><br>
+    <input type="submit"/>
+    <input type="reset"/>
+</form>
+<script>
+    let form = document.getElementById("form");
+    let name = document.getElementById("name");
+    let allow = document.getElementById("allow");
+
+    form.onsubmit = function () {
+        if (name.value === "" || !allow.checked) {
+            alert("姓名不能为空且必须遵守协议");
+        }
+        return false;
+    }
+
+    form.onreset = function () {
+        return confirm("确定清除吗？");
+    }
+</script>
+</body>
+</html>

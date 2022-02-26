@@ -1,0 +1,859 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('https://www.imooc.com/static/moco/v1.0/dist/imv2fonts/imv2.ttf') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont", serif !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.rl-modal.in {
+    opacity: 1;
+}
+
+.rl-modal {
+    position: fixed;
+    background: #fff;
+    z-index: 100000;
+    width: 384px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 12px 24px 0 rgb(28 31 33);
+    border-radius: 12px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+html, body {
+    font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+    color: #1c1f21;
+    height: 100%;
+}
+
+.rl-modal-header .active-title, .rl-modal-header span:hover {
+    color: #f20d0d;
+}
+
+.rl-modal-header h1 span {
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.rl-modal-header h1 span:not(:first-child) {
+    margin-left: 32px;
+}
+
+.rl-modal-header h1 {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+    height: 40px;
+    color: #787d82;
+}
+
+.rl-modal-header {
+    position: relative;
+    padding: 0 20px 25px 30px;
+}
+
+div {
+    background-size: cover;
+}
+
+.rl-modal-body {
+    padding: 0 32px;
+}
+
+.rl-modal .ipt {
+    width: 100%;
+    height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    box-shadow: 2px 0 5px 0 #fff;
+    background: rgba(28, 31, 33, .06);
+    border-radius: 8px;
+    border: 0;
+}
+
+.imv2-visibility_off:before {
+    background: url("img/JP[XAUBZOH3293%[ZHE8_D5.png") 24px 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.rlf-tip-wrap {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    clear: both;
+}
+
+.color-red {
+    color: #EF1300 !important;
+}
+
+p {
+    word-break: break-all;
+}
+
+.rlf-appendix .auto-cbx {
+    margin-right: 10px;
+    vertical-align: -1px;
+}
+
+a, input, button {
+    outline: none;
+    border: 0;
+}
+
+.rlf-appendix .rlf-autoin, .rlf-appendix .rlf-forget {
+    color: #9199a1;
+    user-select: none;
+}
+
+.l {
+    float: left;
+}
+
+label {
+    cursor: default;
+}
+
+.rlf-appendix {
+    line-height: 1em;
+}
+
+.rl-modal .form-control {
+    position: relative;
+}
+
+.r {
+    float: right;
+}
+
+.rlf-appendix .rlf-autoin, .rlf-appendix .rlf-forget {
+    color: #9199a1;
+    user-select: none;
+}
+
+.rlf-appendix .rlf-line {
+    margin: 0 16px;
+    background: rgba(28, 31, 33, .1);
+    width: 1px;
+    height: 14px;
+}
+
+.moco-btn {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-image: none;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    color: #545c63;
+    background-color: transparent;
+    border-color: #9199a1;
+    opacity: 1;
+    padding: 7px 16px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 18px;
+}
+
+.btn-full {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.moco-btn-lg {
+    padding: 11px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 24px;
+}
+
+.moco-btn-red {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    -weibkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    color: #fff;
+    background-color: #f20d0d;
+    border-color: #f20d0d;
+    opacity: 1;
+}
+
+.rlf-tip-globle {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.pop-login-signup-box {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #f20d0d;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.rl-model-footer {
+    padding: 20px 30px 4px;
+}
+
+.pop-login-sns {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.pop-login-sns .pop-sns-weixin {
+    position: relative;
+    background: url("img/2e2eb9389b504fc295bfb865eddde71191ef6de9.png");
+    background-size: 48px 48px;
+    color: #00cc63;
+}
+
+.pop-login-sns a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+
+.pop-login-sns .pop-sns-weixin::after {
+    content: "推荐登录";
+    position: absolute;
+    top: -18px;
+    left: 4px;
+    width: 4em;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    transform: scale(0.5);
+    padding: 6px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(212, 255, 233);
+    border-image: initial;
+    border-radius: 100px 100px 100px 0px;
+}
+
+.pop-login-sns .pop-sns-qq {
+    background: url("img/2934349b033b5bb5e40109d53bd3d539b700bcc2.png");
+    background-size: 48px 48px;
+    color: #368afe;
+}
+
+.pop-login-sns a + a {
+    margin-left: 64px;
+}
+
+.pop-login-sns a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+
+.imv2-qq11:before {
+}
+
+.pop-login-sns .pop-sns-weibo {
+    background: url("img/01490058afef08a801219c778e03d8.jpg");
+    background-size: 80px 80px;
+    background-position: -18px -18px;
+    color: #e5254d;
+}
+
+.privacy_tip {
+    font-size: 14px;
+    color: #9199a1;
+    text-align: center;
+}
+
+.privacy_tip a:link, .privacy_tip a:visited {
+    font-size: 14px;
+    color: #37f;
+}
+
+.erweima, .pcLogin {
+    background: url(https://www.imooc.com/static/img/erweima.png) no-repeat 0 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    cursor: pointer;
+    border-radius: 0 0 12px 0;
+}
+
+.rlf-areacode {
+    position: relative;
+    cursor: pointer;
+    left: 16px;
+    top: 12px;
+    font-size: 16px;
+    color: #1c1f21;
+    text-align: left;
+    line-height: 24px;
+}
+
+.rl-model-signup .ipt-phone {
+    padding-left: 77px !important;
+}
+
+.ipt-pwd {
+    background-position: 0 -48px;
+}
+
+#signup .reSend {
+    float: right;
+    top: 12px;
+    right: 14px;
+    font-size: 14px;
+    color: #9199a1;
+    line-height: 24px;
+}
+
+#signup .reSend.active {
+    right: 14px;
+    color: #37f !important;
+    cursor: pointer;
+}
+
+.rlf-appendix .auto-cbx {
+    margin-right: 10px;
+    vertical-align: -1px;
+}
+
+.rlf-appendix .rlf-autoin, .rlf-appendix .rlf-forget {
+    color: #9199a1;
+    user-select: none;
+}
+
+.rlf-appendix .ipt-agreement {
+    color: #37f;
+}
+
+.rlf-areacode {
+    position: relative;
+    cursor: pointer;
+    left: 16px;
+    top: 36px;
+    font-size: 16px;
+    color: #1c1f21;
+    text-align: left;
+    line-height: 24px;
+}
+
+#signup .reSend {
+    top: 12px;
+    right: 14px;
+    font-size: 14px;
+    color: #9199a1;
+    line-height: 24px;
+}
+
+#new_header.special-header .new-header {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#new_header .new-header .nav-item li {
+    float: left;
+}
+
+.nav-item li {
+    transition: .3s;
+    margin: 0;
+}
+
+#new_header .new-header .nav-item li > a {
+    display: block;
+    font-size: 16px;
+    height: 63px;
+    line-height: 63px;
+    color: #545C63;
+    position: relative;
+    padding: 0 16px;
+}
+
+#new_header.special-header .nav-item li > a {
+    color: #545C63;
+}
+
+#new_header .new-header .nav-item li > a .icn-new {
+    position: absolute;
+    display: inline-block;
+    top: 18px;
+    width: 14px;
+    height: 10px;
+    background: url(http://www.imooc.com/static/img/common/new2.png) no-repeat 0 0;
+    background-size: 100%;
+    background-position: center;
+}
+
+#main {
+    padding: 0;
+    margin-top: 10px;
+    background: #f3f5f6;
+    min-height: calc(100vh - 206px);
+}
+
+.sub-header {
+    background: #fff;
+    width: 100%;
+    padding: 8px 0;
+    box-shadow: 0 2px 4px 0 rgb(28 31 33);
+    box-sizing: border-box;
+}
+
+.sub-header .inner {
+    width: 1152px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 54px;
+}
+
+.sub-header .inner .sub-logo {
+    float: left;
+    height: 54px;
+}
+
+.sub-header .inner .sub-desc {
+    height: 19px;
+    margin-top: 26px;
+}
+
+.sub-header .inner .my-buy, .sub-header .inner .total-course {
+    float: right;
+    margin-left: 22px;
+    font-size: 14px;
+    color: #9199a1;
+    line-height: 54px;
+}
+
+.main_con {
+    width: 1152px;
+    margin: 0 auto;
+    margin-top: 28px;
+    position: relative;
+}
+
+.main_con .list_con {
+    position: relative;
+    width: 856px;
+    margin-bottom: 48px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(28 31 33);
+    box-sizing: border-box;
+    padding: 50px 40px 40px 50px;
+    border-radius: 8px;
+}
+
+.main_con .list_con li {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(28, 31, 33, .1);
+    margin-bottom: 38px;
+}
+
+.main_con .list_con li .img {
+    width: 138px;
+    height: 157px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.main_con .list_con li .text_con {
+    width: 600px;
+    padding: 0 0 16px 0;
+    font-size: 0;
+}
+
+.main_con .list_con li .text_con .title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1c1f21;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 4px;
+}
+
+.main_con .list_con li .text_con .desc {
+    font-size: 14px;
+    color: #545c63;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 18px;
+    display: inline-block;
+    max-width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main_con .list_con li .text_con .info i {
+    padding: 0 8px;
+    font-size: 12px;
+    color: #9199a1;
+    text-align: left;
+    line-height: 14px;
+}
+
+.main_con .list_con li .text_con .info span {
+    font-size: 12px;
+    color: #9199a1;
+    text-align: left;
+    line-height: 14px;
+}
+
+.main_con .list_con li .text_con .try-read-box {
+    margin-bottom: 12px;
+}
+
+.main_con .list_con li .text_con .try-read-box .try-read-item {
+    width: 290px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 0;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.main_con .list_con li .text_con .try-read-box .try-read-item .try-read-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    background: url("https://static3.sycdn.imooc.com/static/img/column/try-read-img_new_2x.png");
+    background-repeat: no-repeat;
+    background-size: 34px auto;
+    background-position: center;
+    width: 30px;
+    height: 20px;
+}
+
+.main_con .list_con li .text_con .try-read-box .try-read-item .try-read-title {
+    display: inline-block;
+    font-size: 12px;
+    color: #545c63;
+    text-align: left;
+    line-height: 16px;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.main_con .list_con li .text_con .author-box .author-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main_con .list_con li .text_con .author-box .author-name {
+    margin: 0 8px 0 12px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.main_con .list_con li .text_con .author-box .author-title {
+    font-size: 12px;
+    text-align: left;
+    line-height: 36px;
+    margin-left: 8px;
+}
+
+.main_con .list_con li .text_con .price_con .sale-price .sale {
+    font-weight: 700;
+    font-size: 18px;
+    color: #37f;
+    text-align: left;
+    line-height: 36px;
+    margin-right: 8px;
+}
+
+.main_con .list_con li .text_con .price_con {
+    display: inline-block;
+    min-height: 56px;
+}
+
+:link, :visited, ins {
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main_con .bottom-line {
+    width: 856px;
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+.main_con .bottom-line .line {
+    width: 101px;
+    background: rgba(28, 31, 33, .1);
+    height: 1px;
+}
+
+.main_con .bottom-line div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main_con .bottom-line .bottom-tip {
+    font-size: 14px;
+    color: #9199a1;
+    line-height: 14px;
+    margin: 0 16px;
+}
+
+.main_con .right_con {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 275px;
+}
+
+
+.main_con .right_con .wechatma-con {
+    width: 272px;
+    background: #fff;
+    padding: 22px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+
+    box-shadow: 0 2px 4px 0 rgb(28 31 33);
+    border-radius: 8px;
+}
+
+.main_con .right_con .wechatma-con .ma-con {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15.5px;
+    border-bottom: 1px solid rgba(28, 31, 33, .06);
+}
+
+.main_con .right_con .wechatma-con .ma-con .ma {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://static3.sycdn.imooc.com/static/img/column/qiqi_wechat_qr2.png");
+}
+
+.main_con .right_con .wechatma-con .ma-con .desc {
+    width: 140px;
+}
+
+.main_con .right_con .wechatma-con .ma-con .desc .title {
+    font-size: 14px;
+    color: #07111b;
+    line-height: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main_con .right_con .wechatma-con .ma-con .desc .item-con {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_con .right_con .wechatma-con .ma-con .desc .item-con .item {
+    width: 58px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #545c63;
+    margin-right: 12px;
+    margin-bottom: 11px;
+    display: inline-block;
+}
+
+.main_con .right_con .wechatma-con .text-con {
+    padding-top: 7.5px;
+    font-size: 14px;
+    color: #545c63;
+    line-height: 23px;
+}
+
+.main_con .right_con .download-app {
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(28 31 33);
+    padding: 24px;
+    margin-top: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.main_con .right_con .download-app .logo-icon {
+    width: 56px;
+    height: 56px;
+}
+
+.main_con .right_con .download-app .text {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.main_con .right_con .download-app .text h4 {
+    font-size: 14px;
+    color: #1c1f21;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+.main_con .right_con .download-app .text p {
+    font-size: 12px;
+    color: #240000;
+    line-height: 14px;
+}
+
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#footer {
+    background: #fff;
+    border-top: 1px solid #f3f5f6;
+    font-size: 12px;
+    color: #93999F;
+    padding: 36px 0;
+    min-width: 620px;
+    position: relative;
+    z-index: 21;
+    font-weight: 300;
+}
+
+#footer .waper {
+    width: auto;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+#footer .footer_intro .footer_link {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+#footer .footer_intro .footer_link ul {
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+#footer .followus {
+    padding-left: 30px;
+}
+
+#footer .footer_intro .footer_link li {
+    margin-right: 27px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+}
+.main_con .list_con li .text_con .author-box span {
+    font-size: 12px;
+    color: #1c1f21;
+    vertical-align: middle;
+}
+#footer p {
+    line-height: 1.7;
+}
+
+.l {
+    float: left;
+}
+a:link, a:visited {
+    color: #1c1f21;
+}
+#footer .beian {
+    background: url("https://www.imooc.com/static/img/beianicon.png") no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: -4px;
+}
+
+.moco-emoji {
+    width: 18px;
+    height: 18px;
+    display: inline !important;
+    margin: 0 !important;
+}

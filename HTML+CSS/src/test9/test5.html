@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="get" action="#">
+    <input type="button" value="单击" id="single"/>
+    <input type="button" value="双击" id="double"/>
+</form>
+<script>
+    let single = document.getElementById("single");
+    let double = document.getElementById("double");
+
+    single.onclick = function () {
+        alert("按钮被单击了");
+    }
+
+    double.ondblclick = function () {
+        alert("按钮被双击了");
+    }
+</script>
+</body>
+</html>

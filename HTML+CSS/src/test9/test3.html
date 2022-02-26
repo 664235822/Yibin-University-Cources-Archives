@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="get" action="#">
+    用户名：<input type="text" id="username"/><label id="usernameLabel">username失去焦点，判断</label><br>
+    密码：<input type="password" id="pwd"/><label id="pwdLabel">pwd失去焦点，判断</label>
+</form>
+<script>
+    let username = document.getElementById("username");
+    let pwd = document.getElementById("pwd");
+    let usernameLabel = document.getElementById("usernameLabel");
+    let pwdLabel = document.getElementById("pwdLabel");
+
+    username.onfocus = function () {
+        usernameLabel.innerText = "username获得焦点，请输入";
+    }
+
+    username.onblur = function () {
+        usernameLabel.innerText = "username失去焦点，判断";
+    }
+
+    pwd.onfocus = function () {
+        pwdLabel.innerText = "pwd获得焦点，请输入";
+    }
+
+    pwd.onblur = function () {
+        pwdLabel.innerText = "pwd失去焦点，判断";
+    }
+</script>
+</body>
+</html>

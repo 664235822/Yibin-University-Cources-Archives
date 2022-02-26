@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #d1 {
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+
+        #d2 {
+            width: 100px;
+            height: 100px;
+            background: yellow;
+        }
+
+        #d3 {
+            width: 50px;
+            height: 50px;
+            background: blue;
+        }
+    </style>
+
+</head>
+<body>
+<div id="d1">
+    <div id="d2">
+        <div id="d3"></div>
+    </div>
+</div>
+<script>
+    let d1 = document.getElementById("d1");
+    let d2 = document.getElementById("d2");
+    let d3 = document.getElementById("d3");
+    d1.addEventListener("click", show, false);
+    d2.addEventListener("click", show, false);
+    d3.addEventListener("click", show, false);
+
+    function show() {
+        alert("执行" + this.id + "函数");
+    }
+
+</script>
+</body>
+</html>
