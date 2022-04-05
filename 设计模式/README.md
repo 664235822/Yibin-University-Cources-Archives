@@ -1,5 +1,4 @@
-# DesignMode
-设计模式
+# 设计模式
 
 ## 创建型设计模式
 * 单例模式 (Singleton)
