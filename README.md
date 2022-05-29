@@ -9,6 +9,14 @@
 * 计算机网络
 * 软件工程概论
 
+## 实训
+* Web前端课程设计
+<br>(HTML-Practice)
+* JavaWeb课程设计
+<br>(JavaWeb-SIMS)
+* 大数据课程设计
+<br>(BigData-Video)
+
 ## 其他
 * 电子教材
 * 绿色公民
