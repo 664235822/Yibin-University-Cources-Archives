@@ -1,0 +1,35 @@
+
+        <view class="box">
+          <text>姓名：</text>
+          <input type="text" bindchange="n1" />
+        </view>
+        <view class="box">
+          <text>性别：</text>
+          <radio-group>
+          <radio>男</radio>
+          <radio>女</radio>
+          </radio-group>
+        </view>
+        <view class="box">
+          <text>学历：</text>
+          <radio-group>
+            <radio>小学</radio>
+            <radio>初中</radio>
+            <radio>高中</radio>
+            <radio>专科</radio>
+            <radio>本科</radio>
+            <radio>硕士</radio>
+            <radio>博士</radio>
+            <radio>其他</radio>
+          </radio-group>
+        </view>
+        <view class="box">
+          <text>特长：</text>
+          <checkbox-group>
+            <checkbox>C#</checkbox>
+            <checkbox>Java</checkbox>
+            <checkbox>C++</checkbox>
+          </checkbox-group>
+        </view>
+        <button bindtap="bj">上传</button>
+        <button class="reset">重置</button>

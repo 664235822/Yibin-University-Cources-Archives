@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user1" class="user.entity.User">
+        <constructor-arg index="0" value="chenheng1"/>
+        <constructor-arg index="1">
+            <list>
+                <value>唱歌</value>
+                <value>跳舞</value>
+                <value>篮球</value>
+            </list>
+        </constructor-arg>
+        <constructor-arg index="2">
+            <map>
+                <entry key="dalian" value="大连"/>
+                <entry key="beijing" value="北京"/>
+                <entry key="shanghai" value="上海"/>
+            </map>
+        </constructor-arg>
+        <constructor-arg index="3">
+            <set>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王二</value>
+            </set>
+        </constructor-arg>
+    </bean>
+    <bean id="user2" class="user.entity.User">
+        <property name="uname" value="zhufanghaojun"/>
+        <property name="hobbyList">
+            <list>
+                <value>编程</value>
+                <value>游戏</value>
+                <value>吉他</value>
+            </list>
+        </property>
+        <property name="residenceMap">
+            <map>
+                <entry key="chengdu" value="成都"/>
+                <entry key="luzhou" value="泸州"/>
+                <entry key="yibin" value="宜宾"/>
+            </map>
+        </property>
+        <property name="aliasSet">
+            <set>
+                <value>杨阳</value>
+                <value>罗培铭</value>
+                <value>黄艺鑫</value>
+            </set>
+        </property>
+    </bean>
+
+
+</beans>

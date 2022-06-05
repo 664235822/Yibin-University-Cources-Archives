@@ -1,0 +1,4 @@
+/* pages/tab3/tab3.wxss */
+.box{
+   color: blueviolet
+  }

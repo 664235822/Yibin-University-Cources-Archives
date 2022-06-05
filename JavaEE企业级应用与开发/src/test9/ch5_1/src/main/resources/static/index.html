@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+测试Spring Boot的Thymeleaf支持<br>
+引入主体内容模板片段：
+<div th:include="footer::content"></div>
+引入版权所有模板片段：
+<div th:replace="footer::copy" ></div>
+静态首页
+<a href="i18n/first"> Spring Boot与Thymeleaf实现页面信息国际化</a><br>
+<p>静态static文件夹下的网页使用Thymeleaf语法解析不了</p>
+</body>
+</html>

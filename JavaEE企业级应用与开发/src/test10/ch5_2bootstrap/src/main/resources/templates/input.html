@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{css/bootstrap.min.css}" />
+<!-- 默认访问 src/main/resources/static下的css文件夹-->
+<link rel="stylesheet" th:href="@{css/bootstrap-theme.min.css}" />
+<!-- 引入jQuery -->
+<script type="text/javascript" th:src="@{js/jquery.min.js}"></script>
+<script type="text/javascript">
+	function testJson() {
+		//获取输入的值pname为id
+		var pname = $("#pname").val();
+		var password = $("#password").val();
+		var page = $("#page").val();
+		alert(password);
+		$.ajax({
+			//发送请求的URL字符串
+			url : "testJson",
+			//定义回调响应的数据格式为JSON字符串，该属性可以省略
+			dataType : "json",
+			//请求类型
+			type : "post",
+			//定义发送请求的数据格式为JSON字符串
+			contentType : "application/json",
+			//data表示发送的数据
+			data : JSON.stringify({pname:pname,password:password,page:page}),
+			//成功响应的结果
+			success : function(data){
+				if(data != null){
+					//返回一个Person对象
+					//alert("输入的用户名:" + data.pname + "，密码：" + data.password + "，年龄：" +  data.page);
+					//ArrayList<Person>对象
+					/**for(var i = 0; i < data.length; i++){
+						alert(data[i].pname);
+					}**/
+					//返回一个Map<String, Object>对象
+					//alert(data.pname);//pname为key
+					//返回一个List<Map<String, Object>>对象
+					for(var i = 0; i < data.length; i++){
+						alert(data[i].pname);
+					}
+				}
+			},
+			//请求出错
+			error:function(){
+				alert("数据发送失败");
+			}
+		});
+	}
+</script>
+</head>
+<body>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">处理JSON数据</h3>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+        	<h4>添加用户</h4>
+    	</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<form class="form-horizontal" action="">
+					<div class="form-group">
+						<div class="input-group col-md-6">
+							<span class="input-group-addon">
+								<i class="glyphicon glyphicon-pencil"></i>
+							</span>
+							<input class="form-control" type="text"
+							 id="pname" th:placeholder="请输入用户名"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group col-md-6">
+							<span class="input-group-addon">
+								<i class="glyphicon glyphicon-pencil"></i>
+							</span>
+							<input class="form-control" type="text"
+							 id="password" th:placeholder="请输入密码"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group col-md-6">
+							<span class="input-group-addon">
+								<i class="glyphicon glyphicon-pencil"></i>
+							</span>
+							<input class="form-control" type="text"
+							 id="page" th:placeholder="请输入年龄"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-6">
+							<div class="btn-group btn-group-justified">
+								<div class="btn-group">
+									<button type="button" onclick="testJson()" class="btn btn-success">
+										<span class="glyphicon glyphicon-share"></span>
+										&nbsp;测试
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

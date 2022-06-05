@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="UserService" class="com.service.UserService"/>
+    <bean id="B" class="com.entity.B"/>
+    <bean id="C" class="com.entity.C"/>
+    <bean id="UserDao" class="com.dao.UserDaoImpl">
+        <property name="id">
+            <value>1</value>
+        </property>
+        <property name="name">
+            <value>张三</value>
+        </property>
+    </bean>
+</beans>

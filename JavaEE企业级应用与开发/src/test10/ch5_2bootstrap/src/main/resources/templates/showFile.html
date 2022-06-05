@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{css/bootstrap.min.css}" />
+<!-- 默认访问 src/main/resources/static下的css文件夹-->
+<link rel="stylesheet" th:href="@{css/bootstrap-theme.min.css}" />
+<body>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">文件下载示例</h3>
+		</div>
+	</div>
+	<div class="container">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">文件列表</h3>
+			</div>
+			<div class="panel-body">
+				<div class="table table-responsive">
+					<table class="table table-bordered table-hover">
+						<tbody class="text-center">
+							<tr th:each="file,fileStat:${filesList}">
+								<td>
+									<span th:text="${fileStat.count}"></span>
+								</td>
+								<td>
+									<!--file.name相当于调用getName()方法获得文件名称  -->
+									<a th:href="@{download(filename=${file.name})}">
+										<span th:text="${file.name}"></span>
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<a th:href="@{uploadFile}">
+									<span >继续上传</span>
+								</a>
+								<a th:href="@{/}">
+									<span >返回首页</span>
+								</a>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

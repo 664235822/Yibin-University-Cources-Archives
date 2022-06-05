@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <!--
+                <environments>元素用于对环境进行配置。MyBatis的环境配置实际上就是数据源的配置，
+                我们可以通过<environments>元素配置多种数据源，即配置多种数据库。
+        -->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!--数据库连接信息，需与本地数据库对应-->
+            <dataSource type="POOLED">
+                <!-- 数据库驱动 -->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <!-- 连接数据库的url -->
+                <property name="url" value="jdbc:mysql://119.28.10.179:3306/test5?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8"/>
+                <!--?useUnicode=true&amp;characterEncoding=utf8：解决编码mybatis到mysql数据库编码的问题，前提，数据库创建时是以utf8编码创建-->
+                <!-- 连接数据库的用户名 -->
+                <property name="username" value="root"/>
+                <!-- 连接数据库的密码 -->
+                <property name="password" value="zhuzhou9uu897@"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置mapper.xml文件-->
+    <mappers>
+        <mapper resource="UsersMapper.xml"/>
+    </mappers>
+</configuration>

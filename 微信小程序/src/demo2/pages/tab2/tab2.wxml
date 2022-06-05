@@ -1,0 +1,30 @@
+<!--pages/tab2/tab2.wxml-->
+<view>
+    <text>姓名：</text>
+    <input placeholder="请输入姓名" />
+</view>
+<view>
+    <text>性别：</text>
+    <radio-group>
+        <radio>男</radio>
+        <radio>女</radio>
+    </radio-group>
+</view>
+<view><text>专业技能:</text></view>
+<checkbox-group>
+    <view>
+        <checkbox>HTML</checkbox>
+    </view>
+    <view>
+        <checkbox>CSS</checkbox>
+    </view>
+    <view>
+        <checkbox>JavaScript</checkbox>
+    </view>
+    <view>
+        <checkbox>Photoshop</checkbox>
+    </view>
+</checkbox-group>
+<form bindsubmit="submit">
+    <button form-type="submit">提交</button>
+</form>

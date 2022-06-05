@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a th:href="@{/i18n/first(locale='zh_CN')}" th:text="#{chinese.key}"></a>
+	<a th:href="@{/i18n/first(locale='en_US')}" th:text="#{english.key}"></a>
+	<br>
+	<a th:href="@{/i18n/admin}" th:text="#{test.admin}"></a><br>
+	<a th:href="@{/i18n/before}"  th:text="#{test.before}"></a><br>
+</body>
+</html>

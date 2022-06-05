@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	格式化控制器传递过来的系统时间nowTime
+	<span th:text="${#dates.format(nowTime, 'yyyy/MM/dd')}"></span>
+	<br>
+	创建一个日期对象
+	<span th:text="${#dates.create(2019,6,13)}"></span>
+	<br>
+	格式化控制器传递过来的系统日历nowCalendar：
+	<span th:text="${#calendars.format(nowCalendar, 'yyyy-MM-dd')}"></span>
+	<br>
+	格式化控制器传递过来的BigDecimal对象myMoney：
+	<span th:text="${#numbers.formatInteger(myMoney,3)}"></span>
+	<br>
+	计算控制器传递过来的字符串str的长度：
+	<span th:text="${#strings.length(str)}"></span>
+	<br>
+	返回对象，当控制器传递过来的BigDecimal对象myMoney为空时，返回默认值9999：
+	<span th:text="${#objects.nullSafe(myMoney, 9999)}"></span>
+	<br>
+	判断boolean数据是否是false：
+	<span th:text="${#bools.isFalse(bool)}"></span>
+	<br>
+	判断数组mya中是否包含元素5：
+	<span th:text="${#arrays.contains(mya, 5)}"></span>
+	<br>
+	排序列表myList1的数据：
+	<span th:text="${#lists.sort(myList1)}"></span>
+	<br>
+	判断集合mySet中是否包含元素set2：
+	<span th:text="${#sets.contains(mySet, 'set2')}"></span>
+	<br>
+	判断myMap中是否包含key1关键字：
+	<span th:text="${#maps.containsKey(myMap, 'key1')}"></span>
+	<br>
+	将数组mya中的元素求和：
+	<span th:text="${#aggregates.sum(mya)}"></span>
+	<br>
+	将数组mya中的元素求平均：
+	<span th:text="${#aggregates.avg(mya)}"></span>
+	<br>
+	如果未找到消息，则返回默认消息（如“??msgKey_zh_CN??”）：
+	<span th:text="${#messages.msg('msgKey')}"></span>
+</body>
+</html>

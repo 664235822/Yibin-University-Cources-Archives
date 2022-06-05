@@ -1,0 +1,13 @@
+
+        <view class="box">
+          <text>比较对象1：</text>
+          <input type="number" bindchange="n1" />
+        </view>
+        <view class="box">
+          <text>比较对象2：</text>
+          <input type="number" bindchange="n2" />
+        </view>
+        <button bindtap="bj">比较</button>
+        <view class="box">
+          <text>比较结果：{{result}}</text>
+        </view>

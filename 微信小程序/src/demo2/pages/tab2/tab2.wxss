@@ -1,0 +1,18 @@
+view{
+  margin:20px 70px;
+}
+input {
+  width: 500rpx;
+  border-bottom: 3rpx solid black;
+  margin: 0 auto;
+}
+
+button {
+  margin: 50rpx;
+}
+
+button {
+  color: whitesmoke;
+  background: black;
+  letter-spacing: 10rpx;
+}

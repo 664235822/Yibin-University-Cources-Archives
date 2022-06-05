@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Form</h1>
+    <form action="#" th:action="@{/login}" th:object="${loginBean}" method="post">
+    	<!--th:field="*{uname}"的uname与实体类的属性相同 ，即绑定loginBean对象-->
+        <p>Uname: <input type="text" th:field="*{uname}" th:placeholder="请输入用户名" /></p>
+        <p>Urole: <input type="text" th:field="*{urole}" th:placeholder="请输入角色"  /></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+    <a href="index.html">返回主页（静态首页）通过href="index.html"静态跳转(默认访问/static)</a><br/>
+    <a th:href="@{index.html}">返回主页（静态首页）通过th:href="@{index.html}"静态跳转(默认访问/static)</a><br/>
+    <a th:href="@{/}">返回首页（template）通过th:href="@{/}"访问控制器进行跳转 </a>
+    <p>也就是说，直接给路径是默认访问/static，而返回template目录下的页面都要通过控制器才能进行访问</p>
+</body>
+</html>

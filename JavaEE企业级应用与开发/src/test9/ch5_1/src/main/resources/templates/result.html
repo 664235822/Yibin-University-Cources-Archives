@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Result</h1>
+    <p th:text="'Uname: ' + ${loginBean.uname}" />
+    <p th:text="'Urole: ' + ${loginBean.urole}" />
+    <a href="toLogin">继续提交</a>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{css/bootstrap.min.css}" />
+<!-- 默认访问 src/main/resources/static下的css文件夹-->
+<link rel="stylesheet" th:href="@{css/bootstrap-theme.min.css}" />
+</head>
+<body>
+	<!-- 面板 -->
+	<div class="panel panel-primary">
+		<!-- 面板头信息 -->
+		<div class="panel-heading">
+			<!-- 面板标题 -->
+			<h3 class="panel-title">第一个基于Thymeleaf模板引擎的Spring Boot Web应用</h3>
+		</div>
+	</div>
+	<!-- 容器 -->
+	<div class="container">
+		<div>
+        	<h4>图书列表</h4>
+    	</div>
+		<div class="row">
+			<!-- col-md针对桌面显示器 col-sm针对平板 -->
+			<div class="col-md-4 col-sm-6">
+				<a href="">
+					<img th:src="'images/' + ${aBook.picture}" alt="图书封面" style="height: 180px; width: 40%;"/>
+				</a>
+				<!-- caption容器中放置其他基本信息，比如标题、文本描述等 -->
+				<div class="caption">
+					<h4 th:text="${aBook.bname}"></h4>
+					<p th:text="${aBook.author}"></p>
+					<p th:text="${aBook.isbn}"></p>
+					<p th:text="${aBook.price}"></p>
+					<p th:text="${aBook.publishing}"></p>
+				</div>
+			</div>
+			<!-- 循环取出集合数据 -->
+			<div class="col-md-4 col-sm-6" th:each="book:${books}">
+				<a href="">
+					<img th:src="'images/' + ${book.picture}" alt="图书封面" style="height: 180px; width: 40%;"/>
+				</a>
+				<div class="caption">
+					<h4 th:text="${book.bname}"></h4>
+					<p th:text="${book.author}"></p>
+					<p th:text="${book.isbn}"></p>
+					<p th:text="${book.price}"></p>
+					<p th:text="${book.publishing}"></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<a href="input">Json测试</a>
+		</div>
+		<div class="row">
+			<a href="uploadFile">文件上传下载测试</a>
+		</div>
+	</div>
+</body>
+</html>

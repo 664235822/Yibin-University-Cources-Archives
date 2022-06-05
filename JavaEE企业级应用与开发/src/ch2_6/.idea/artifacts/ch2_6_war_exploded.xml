@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ch2_6:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ch2_6_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ch2_6/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ch2_6" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="commons-fileupload-1.41" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

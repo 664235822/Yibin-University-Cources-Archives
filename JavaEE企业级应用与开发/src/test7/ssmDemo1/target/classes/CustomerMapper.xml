@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zyd.myBatis.mapper.CustomerMapper">
+	<select id="listCustomers" resultType="zyd.myBatis.po.Customer">
+		select *
+		from t_customer
+	</select>
+	<!--根据id查询客户信息 -->
+	<select id="findCustomerById" parameterType="String"
+			resultType="zyd.myBatis.po.Customer">
+		select *
+		from t_customer
+		where username = #{username}
+	</select>
+
+	<!--添加客户信息 -->
+	<insert id="addCustomer" parameterType="zyd.myBatis.po.Customer">
+		insert into t_customer(username, jobs, phone)
+		values (#{username}, #{jobs}, #{phone})
+	</insert>
+	<update id="updateCustomer" parameterType="zyd.myBatis.po.Customer">
+		update t_customer
+		set
+			jobs     = #{jobs},
+			phone    = #{phone}
+		where username = #{username}
+	</update>
+	<delete id="deleteCustomerById" parameterType="String">
+		delete
+		from t_customer
+		where username = #{username}
+	</delete>
+</mapper>

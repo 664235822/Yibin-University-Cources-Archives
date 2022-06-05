@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--spring MVC的配置文件-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <!--上面的网址类似导包一样，需要下载你下面配置文件中所用到-->
+
+    <!--做扫包标签配置-->
+    <context:component-scan base-package="controller"/>
+
+    <!--注意mvc中的annotation-driven是选择来自="http://www.springframework.org/schema/mvc"-->
+    <!--初始化Spring MVC的两个核心组件：HandlerMapping HandleAdapter-->
+    <mvc:annotation-driven/>
+
+    <!-- 使用resources过滤掉不需要dispatcher servlet的资源（即静态资源，如css、js、html、images）。
+    使用resources时，必须使用annotation-driven，不然resources元素会阻止任意控制器被调用。
+    -->
+    <!-- 允许css目录下所有文件可见 -->
+    <mvc:resources location="/html/" mapping="/html/**"></mvc:resources>
+
+    <!--配置Spring MVC视图解析器（核心组件之一）-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--以下两个标签是配置完整路径的拼接-->
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+</beans>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="getFile">打开文件</button>
+  </view>
+  <view class="userinfo">
+    <button bindtap="saveFile">保存文件</button>
+  </view>
+  <view class="userinfo">
+    <textarea bindinput='changemsg' value="{{msgFile}}"></textarea>
+  </view>
+ 
+</view>

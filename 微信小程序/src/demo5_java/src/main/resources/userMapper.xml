@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mapper.UserMapper">
+    <resultMap id="user" type="com.entity.User">
+        <id column="username" property="username" javaType="String"/>
+        <result column="pwd" property="pwd" javaType="String"/>
+    </resultMap>
+    <select id="login" parameterType="com.entity.User" resultType="com.entity.User">
+        select * from t_user
+        <where>
+            username = #{username} and password = #{password}
+        </where>;
+    </select>
+    <insert id="register" parameterType="com.entity.User">
+        insert into t_user (username, password)
+        values (#{username}, #{password});
+    </insert>
+</mapper>

@@ -1,0 +1,5 @@
+<form class="userinfo">
+用户名：<input class="userinfo-avatar" type="text" bindchange="u"/>
+密码：<input class="userinfo-avatar" type="password" bindchange="p"/>
+<input class="usermotto" type="submit" value="注册" bindtap="c"/>
+</form>

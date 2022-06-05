@@ -1,0 +1,1 @@
+在项目架构下的libary添加文件上传的jar以及Tomcat下的stervlet的jar包 同时部署到Tomcat中点击artifcat自动配置

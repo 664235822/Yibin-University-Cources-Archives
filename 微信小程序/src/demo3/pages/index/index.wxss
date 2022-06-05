@@ -1,0 +1,30 @@
+.box{
+  margin:35px;
+  padding: 35px;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+input {
+  width: 500rpx;
+  border-bottom: 3rpx solid black;
+  margin: 0 auto;
+}
+
+button {
+  margin: 50rpx;
+}
+
+button {
+  color: whitesmoke;
+  background: red;
+  letter-spacing: 10rpx;
+}
+radio{
+  margin: 5px;
+}
+checkbox{
+  margin: 5px;
+}
+.reset{
+  background: green;
+}

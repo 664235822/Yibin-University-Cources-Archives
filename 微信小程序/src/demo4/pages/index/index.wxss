@@ -1,0 +1,92 @@
+/**index.wxss**/
+#mainImage{
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}
+#bottomImage{
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+}
+#container{
+  position: absolute;
+  top:70rpx;
+  left: 60rpx;
+}
+#titleInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: small;
+  color: rgb(62, 190, 62);
+}
+#titleInfo>text{
+  margin-bottom: 20rpx;
+}
+#username{
+  font-size: xx-large;
+  font-weight: bold;
+}
+#mainInfo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+}
+#mainInfo>view{
+  flex: 1;
+  font-size: x-small;
+}
+#remark{
+  color: rgb(62, 190, 62);
+}
+#list{
+  display: flex;
+  flex-direction: column;
+}
+#list>view{
+  flex: 1;
+  width: 150rpx;
+}
+#education>view{
+  margin-bottom: 20rpx;
+}
+#skill>view{
+  margin-bottom: 20rpx;
+}
+ol>li{
+  list-style: circle;
+}
+#left{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 250rpx;
+}
+#right{
+  margin-left: 20rpx;
+}
+#right>viwe{
+  margin-top: 20rpx;
+}
+#right>view:first-of-type{
+  margin-top: 0rpx;
+}
+.line_green{
+  background-color: rgb(62, 190, 62);
+  width: 50%;
+  height: 15rpx;
+  margin-bottom: 20rpx;
+}
+.line_black{
+  background-color: black;
+  width: 50%;
+  height: 15rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+.font_green{
+  color: rgb(62, 190, 62);
+}
+.time{
+  margin-bottom: 10rpx;
+}

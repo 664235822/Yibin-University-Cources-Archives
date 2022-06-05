@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-fileupload-1.41">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Development/lib/spring-mvc-lib/commons-fileupload-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Development/lib/spring-mvc-lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Development/lib/spring-mvc-lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Development/lib/spring-mvc-lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Development/lib/spring-mvc-lib/taglibs-standard-impl-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

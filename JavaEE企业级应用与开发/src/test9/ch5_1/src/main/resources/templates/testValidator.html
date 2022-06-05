@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>通过th:object访问对象的方式</h2>
+	<div th:object="${goodsInfo}">
+	    <p th:text="*{gname}"></p>
+	    <p th:text="*{gprice}"></p>
+	</div>
+	<h1>表单提交</h1>
+	<!-- 表单提交用户信息，注意表单参数的设置，直接是*{} -->
+	 <form  th:action="@{/add}" th:object="${goodsInfo}" method="post">  
+	  <div><span>商品名</span><input type="text" th:field="*{gname}"/><span th:errors="*{gname}"></span></div>
+	  <div><span>商品价格</span><input type="text" th:field="*{gprice}"/><span th:errors="*{gprice}"></span></div>
+	  <input type="submit" />  
+	</form> 
+</body>
+</html>

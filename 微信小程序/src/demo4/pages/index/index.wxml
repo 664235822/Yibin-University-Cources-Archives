@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view>
+  <image id="mainImage" src="/image/bg_rightup.png" />
+</view>
+<view id="container">
+  <view id="titleInfo">
+    <text>阳光英伦城邦2期</text>
+    <text>四川省泸州市龙马潭区</text>
+    <text>鱼塘街道关口</text>
+    <text>13404098516</text>
+    <text>664235822@qq.com</text>
+  </view>
+  <view id="username">朱方灏钧</view>
+  <view id="mainInfo">
+    <view id="left">
+      <view id="remark">
+        <view class="line_green"></view>
+        遵从本心，不骄不躁
+      </view>
+      <view class="line_black"></view>
+      <view id="skill">
+      <view class="font_green">计算机编程</view>
+      <view>音乐</view>
+      <view class="font_green">游戏</view>
+      </view>
+    </view>
+    <view id="right">
+
+      <view id="education">
+        <view class="line_black"></view>
+        <view class="time">2018年9月-2021年6月</view>
+        <view class="font-green">软件技术</view>
+        <view>四川水利职业技术学院</view>
+      </view>
+      <view id="education">
+        <view class="line_black"></view>
+        <view class="time">2021年9月-2023年6月</view>
+        <view class="font-green">软件工程</view>
+        <view>宜宾学院</view>
+      </view>
+    </view>
+  </view>
+</view>
+<image id="bottomImage" src="/image/bg_leftbuttom.png" />
