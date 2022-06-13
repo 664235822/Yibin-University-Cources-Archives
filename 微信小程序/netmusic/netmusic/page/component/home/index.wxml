@@ -23,11 +23,7 @@
 
   <!--个性推荐 -->
   <view class="tab_cnt" hidden="{{tabidx!=0}}">
-    <swiper indicator-dots="true" autoplay="true" circular="true">
-      <swiper-item wx:for-items="{{banner}}" wx:key="{{item.targetId}}">
-        <image src="{{item.pic}}" class="slide-image" width="750" height="290" />
-      </swiper-item>
-    </swiper>
+    
     <view wx:if="{{!rec.loading}}" id="album_loading">
       <image src="../../../image/cm2_discover_icn_start_big@2x.png"></image>
       正在为您生成个性化推荐...</view>
