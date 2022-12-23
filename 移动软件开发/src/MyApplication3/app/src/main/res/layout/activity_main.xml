@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="5">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_columnSpan="3"
+            />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="3"
+            android:layout_gravity="fill_vertical"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/hundred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00" />
+
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill_horizontal"
+            android:text="=" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

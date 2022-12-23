@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/getreq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET请求"/>
+    <Button
+        android:id="@+id/postreq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST请求"/>
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:textColor="#FFF"
+        android:text="我是来站位置的哈"/>
+
+</LinearLayout>

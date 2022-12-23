@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:columnCount="4"
+    android:rowCount="2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮11"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮12"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮13"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮14"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮21"/>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮22"/>
+
+    <Button android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_height="wrap_content"
+        android:text="按钮23"/>
+</GridLayout>
