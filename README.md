@@ -31,11 +31,9 @@
 * Web前端课程设计
 <br>(HTML-Practice)
 * JavaWeb课程设计
-<br>(JavaWeb-SIMS)
+<br>(SpringBoot-SIMS)
 * 大数据课程设计
 <br>(BigData-Video)
-* 软件工程课程设计
-<br>(SpringBoot-News)
 
 ## 比赛
 * 全国大学生职业技能竞赛先电杯云计算国赛
